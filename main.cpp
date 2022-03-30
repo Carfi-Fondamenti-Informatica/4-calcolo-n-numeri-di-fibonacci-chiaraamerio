@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-   int n,a=0,b=1,c;
+   int n=0,a=0,b=1,c;
    cout<<"inserire un numero intero n"<<endl;
    cin>>n;
    int k=0;
@@ -12,6 +12,7 @@ int main() {
       cout<<c<<endl;
      b=a;
      a=c;
+     k++;
    }}else{
       cout<<"errore"<<endl;
    }
