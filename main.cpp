@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
    int n,a=0,b=1,c;
-   cout<<"inserire un valore intero n"<<endl;
+   cout<<"inserire un numero intero n"<<endl;
    cin>>n;
    int k=0;
    if(n>=2){
